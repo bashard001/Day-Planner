@@ -1,0 +1,31 @@
+#main-content{
+
+    width: 520px;
+
+    padding: 10px;
+
+    margin:  auto;
+}
+.title {
+
+    padding: 20px;
+    text-align: center;
+}
+hr {
+    width: 99.5%;
+    border: solid 3px black;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-row-gap: 10px;
+}
+.hour {
+    border: solid 1px black;
+    text-align: center;
+    padding: 20px;
+}
