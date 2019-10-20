@@ -28,4 +28,10 @@ hr {
     border: solid 1px black;
     text-align: center;
     padding: 20px;
+    font-size: 20px;
+    border-left-style: hidden;
+}
+textarea {
+    padding: 10px;
+    font-size: 20px ;
 }
