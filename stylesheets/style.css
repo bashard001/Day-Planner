@@ -2,11 +2,16 @@ body{
     margin: 0px;
 }
 #main-content{
+    position: sticky;
+    top: 0px;
+    z-index: 1;
     background-color: #FFCC99; 
 
     width: 100%;
 
     padding: 10px;
+
+    border-bottom: solid black;
 }
 .btnColor {
     border-radius: 10px;
@@ -14,8 +19,8 @@ body{
 }
 
 .title {
-
-    padding: 20px;
+    margin: 0px;
+    padding: 15px;
     text-align: center;
 }
 hr {
@@ -29,7 +34,7 @@ hr {
     margin: 0 auto;
     margin-top: 30px;
     display: grid;
-    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-columns: 1fr 4fr 1fr;
     grid-row-gap: 10px;
 }
 .hour {
@@ -48,8 +53,12 @@ textarea {
 
 }
 .red {
-    background-color: red;
+    background-color: rgb(255, 104, 104);
 }
 .yellow {
     background-color: yellow;
+}
+h4 {
+    padding: 0px;
+    margin: 0px;
 }
