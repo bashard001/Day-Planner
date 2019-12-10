@@ -68,5 +68,19 @@ h4 {
 @media (max-width: 650px){
     .container{
         width: 100vw;
+        grid-template-columns: 1fr 5fr 1fr;
+    }
+    .title{
+        padding: 0px 0px 8px 0px;
+    }
+    #main-content{
+        padding: 15px 0px;
+    }
+    #timeh4{
+        margin-left: 10px;
+    }
+    .hour{
+        font-size: 15px;
+        padding: 20px 0px 5px;
     }
 }
