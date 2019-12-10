@@ -20,6 +20,16 @@ body{
     border-radius: 10px;
     background-color: rgb(97, 119, 218);
 }
+h1.title{
+    color: rgb(174, 0, 255);
+}
+h3.title{
+    
+    margin-bottom: 7px;
+}
+h4.title{
+    font-weight: bolder;
+}
 
 .title {
     margin: 0px;
@@ -82,5 +92,10 @@ h4 {
     .hour{
         font-size: 15px;
         padding: 20px 0px 5px;
+    }
+    h3.title{
+        text-align: left;
+        margin-left: 15px;
+        margin-bottom: 7px;
     }
 }

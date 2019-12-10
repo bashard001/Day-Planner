@@ -1,9 +1,9 @@
 var date = moment().format('LL')
-var dateContent = $("<h3>" + date + "</h3>")
+var dateContent = $("<h4>" + date + "</h3>")
 dateContent.addClass("title")
 $("#main-content").append(dateContent)
 var liveHour = moment().format('LT')
-var liveHourEl = $("<h4 id='timeh4'>" + "Current time: " + liveHour + "<h4>")
+var liveHourEl = $("<h4 id='timeh4' class='title' style='padding-top:0px'>" + liveHour + "<h4>")
 var textArea = $("textarea")
 $("#main-content").append(liveHourEl)
 
