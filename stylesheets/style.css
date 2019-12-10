@@ -1,3 +1,6 @@
+html{
+    width: 100vw;
+}
 body{
     margin: 0px;
 }
@@ -7,7 +10,7 @@ body{
     z-index: 1;
     background-color: #FFCC99; 
 
-    width: 100%;
+    width: 100vw;
 
     padding: 10px;
 
@@ -25,7 +28,7 @@ body{
 }
 hr {
     margin: 0px;
-    width: 99.5%;
+    width: 100%;
     border: solid 3px black;
 }
 
@@ -61,4 +64,9 @@ textarea {
 h4 {
     padding: 0px;
     margin: 0px;
+}
+@media (max-width: 650px){
+    .container{
+        width: 100vw;
+    }
 }
