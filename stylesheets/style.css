@@ -53,7 +53,7 @@ hr {
 .hour {
     border: solid 1px black;
     text-align: center;
-    padding: 20px;
+    padding: 25px 15px;
     font-size: 20px;
     border-left-style: hidden;
 }
