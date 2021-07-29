@@ -310,9 +310,6 @@ textarea {
   font: inherit; /* 2 */
 }
 
-/* Interactive
-   ========================================================================== */
-
 /*
  * Add the correct display in Edge, IE 10+, and Firefox.
  */
@@ -328,9 +325,6 @@ details {
 summary {
   display: list-item;
 }
-
-/* Misc
-   ========================================================================== */
 
 /**
  * Add the correct display in IE 10+.
