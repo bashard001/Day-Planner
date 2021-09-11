@@ -61,6 +61,7 @@ $("button").on("click", function(){
 
             var letsGo = caContent.val()
             localStorage.setItem(caContent.attr("id"), letsGo)
+            alert("Saved")
 })
 
 fillInCalendar()
