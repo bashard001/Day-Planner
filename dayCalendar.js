@@ -3,10 +3,9 @@ $(function () {
     var date = moment().format('LL')
     var currentHour = new Date().getHours()
     var dateContent = $("<h4>" + date + "</h4>")
-    dateContent.addClass("title")
 
     var liveHour = moment().format('LT')
-    var liveHourEl = $("<h4 id='timeh4' class='title'>" + liveHour + "</h4>")
+    var liveHourEl = $("<h4 id='timeh4'>" + liveHour + "</h4>")
     var workingHours = ["9am", "10am", "11am", "12am", "1pm", "2pm", "3pm", "4pm", "5pm"]
 
     $("#main-content").append(dateContent)
