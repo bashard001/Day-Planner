@@ -1,7 +1,3 @@
-body{
-    margin: 0px;
-}
-
 #main-content{
     position: sticky;
     top: 0px;
@@ -9,7 +5,7 @@ body{
     background-color: #FFCC99; 
     padding: 10px;
     border-bottom: solid black;
-    border-radius: 0px 0px 20px 20px;
+    border-radius: 0px 0px 15px 15px;
 }
 
 .btnColor {
@@ -28,8 +24,6 @@ h1.title{
     padding: 0px;
 }
 
-
-
 h4.title{
     font-weight: bolder;
     padding: 13px 0px 0px 0px;
@@ -40,7 +34,6 @@ h4.title{
     padding: 15px;
     text-align: center;
 }
-
 
 .container {
     width: 80%;

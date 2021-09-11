@@ -6,15 +6,15 @@ $(function () {
     dateContent.addClass("title")
 
     var liveHour = moment().format('LT')
-    var liveHourEl = $("<h4 id='timeh4' class='title' style='padding-top:0px'>" + liveHour + "<h4>")
-
+    var liveHourEl = $("<h4 id='timeh4' class='title'>" + liveHour + "</h4>")
     var workingHours = ["9am", "10am", "11am", "12am", "1pm", "2pm", "3pm", "4pm", "5pm"]
 
-    $("#main-content").append(liveHourEl)
     $("#main-content").append(dateContent)
+    $("#main-content").append(liveHourEl)
+
 
     function currentStatus() {
-      var  textArea = $("textarea")
+        var textArea = $("textarea")
         textArea.each(function () {
             if ($(this).attr("time") > currentHour) {
                 $(this).attr("class", "green")
