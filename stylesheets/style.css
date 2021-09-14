@@ -59,6 +59,7 @@ textarea {
     padding: 10px;
     font-size: 20px ;
     border: none;
+   
 }
 .green {
     background-color: green;
@@ -77,6 +78,14 @@ h4 {
     padding: 0px;
     margin: 0px;
 }
+
+.past{
+    z-index: 2;
+    position: absolute;
+    width: 100%;
+  
+}
+
 
 @media (max-width: 650px){
     .container{

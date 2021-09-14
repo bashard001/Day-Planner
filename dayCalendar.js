@@ -7,7 +7,7 @@ $(function () {
     var liveHourEl = $("<h4 id='timeh4'>" + liveHour + "</h4>")
     var workingHours = ["9am", "10am", "11am", "12am", "1pm", "2pm", "3pm", "4pm", "5pm"]
     var textArea
-    
+
     $("#main-content").append(dateContent)
     $("#main-content").append(liveHourEl)
 
@@ -34,7 +34,7 @@ $(function () {
 
                 $(".container").append(`<div class='hour'>${el}</div>`)
                 $(".container").append(`<textarea time=${i}
-         id='textarea${el.length > 3 ? el[0] + el[1] : el[0]}'></textarea>`)
+                id='textarea${el.length > 3 ? el[0] + el[1] : el[0]}'></textarea><div class="past"></div>`)
                 $(".container").append(`<button class="btnColor" time=${el.length > 3 ? el[0] + el[1] : el[0]}>Save</button>`)
                 i++
             }))
@@ -48,8 +48,7 @@ $(function () {
             var itemName = textArea[i].getAttribute("id")
             var getContent = localStorage.getItem(itemName)
             textArea[i].textContent = getContent
-        }
-        
+        }  
     }
 
     // takes the info from the textarea and save it to the localStorage
