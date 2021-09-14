@@ -1,0 +1,23 @@
+{
+  "name": "day-planner",
+  "version": "1.0.0",
+  "description": "To access this site go to:\r https://bashard001.github.io/Day-Planner/",
+  "main": "dayCalendar.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass -o stylesheets/ stylesheets/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bashard001/Day-Planner.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bashard001/Day-Planner/issues"
+  },
+  "homepage": "https://github.com/bashard001/Day-Planner#readme",
+  "devDependencies": {
+    "node-sass": "^6.0.1"
+  }
+}

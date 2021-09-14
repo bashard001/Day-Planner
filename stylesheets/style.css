@@ -1,16 +1,19 @@
 #main-content{
     position: sticky;
+ 
     top: 0px;
     z-index: 1;
     background-color: #FFCC99; 
     padding: 10px;
     border-bottom: solid black;
     border-radius: 0px 0px 15px 15px;
+  
 }
 
 .btnColor {
     background-color: rgb(97, 119, 218);
     transition: background-color .4s, border-radius .4s; 
+    cursor: pointer;
 }
 
 .btnColor:hover {
